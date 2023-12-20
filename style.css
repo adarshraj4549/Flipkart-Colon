@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+
+}
+
+
+
+.nav {
+    width: 100%;
+    height: 65px;
+    background-color: f1f2f4;
+    /* border: 1px solid black;*/
+    display: flex;
+    align-items: center;
+    background-color: white;
+    /*position: fixed;*/
+
+
+}
+
+
+
+
+.logo {
+
+    margin-left: 26px;
+    /* border: 1px solid red;*/
+}
+
+.search input {
+    width: 490px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 40px;
+    border: none;
+    background-color: aliceblue;
+
+}
+
+.icon ul {
+    display: flex;
+    align-items: center;
+    /*border: 1px solid red;*/
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.icon li {
+    list-style: none;
+    margin-left: 25px;
+    color: black;
+    display: flex;
+
+}
+
+.icon button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    margin-left: 30px;
+    width: 90px;
+    cursor: pointer;
+}
+
+button .b-icon p {
+    margin-bottom: 5px;
+}
+
+.cart-icon img {
+    margin-right: 5px;
+}
+
+.store-icon p {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.store-icon img {
+    margin-right: 5px;
+}
+
+.Hover-Login {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px 0.7px rgba(0, 0, 0, 0.2);
+    color: black;
+    position: absolute;
+    top: 55px;
+    height: 295px;
+    width: 211px;
+    margin-left: -26px;
+    visibility: hidden;
+
+}
+
+button:hover {
+    background-color: rgb(86, 86, 174);
+
+    .Hover-Login {
+        visibility: visible;
+        transition: all 0.15s ease-in-out;
+    }
+
+    .b-icon-r {
+        rotate: 180deg;
+        margin-bottom: 4px;
+    }
+}
+
+
+.New-Customor {
+    font-family: Arial;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px gray;
+    height: 30px;
+    width: 100%;
+    display: flex;
+
+    padding: 0px 10px;
+    justify-content: space-between;
+    margin: -5px;
+    padding: px;
+    margin-bottom: 2px;
+    margin-bottom: -5px;
+
+
+}
+
+.My-Profile {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.My-Profile p {
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+
+
+/*display: block;
+    cursor: pointer;
+
+.Hover-Login:hover.button .b-icon {
+    display: block;
+    cursor: pointer;
+}*/
+
+.Mail-product {
+    margin-top: 5px;
+    height: 150px;
+    background-color: whitesmoke;
+    width: 100%;
+    /*border: 1px solid black;*/
+    display: flex;
+    align-items: center;
+}
+
+.Top-Offers {
+
+    height: 120px;
+    width: 120px;
+    /*border: 1px solid black;*/
+    margin: 5px;
+    margin: left 10px;
+    text-align: center;
+}
+
+.HDFC-BANK {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    /*border: 2px solid black;*/
+
+}
+
+.Credit {
+    /*border: 1px solid red;*/
+    /*background-color: aqua;*/
+    height: 95px;
+    width: 80%;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.Best {
+    height: 5px;
+    width: 100px;
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.Best_Mobile {
+    background-color: white;
+    /*border: 2px solid black;*/
+    margin-top: 20px;
+    height: 300px;
+    width: 82%;
+    font-weight: 500px;
+    display: flex;
+
+
+}
+
+.Mobile {
+    background-color: white;
+    text-align: center;
+    border: 1.5px solid gray;
+    border-radius: 4px;
+    height: 240px;
+    width: 280px;
+    margin: 10px;
+    margin-top: 50px;
+    margin-inline-end: px;
+
+
+}
+
+.laptop {
+
+    /*border: 2px solid black;*/
+    margin-left: 30px;
+}
+
+.Big-year-End {
+    /*background-color: yellow;*/
+    /*border: 2px solid red;*/
+    margin-top: 20px;
+    height: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+
+}
+
+.Sale {
+    height: 190px;
+    width: 440px;
+    /*border: 2px solid black;*/
+
+
+}
+
+.Top-Stories {
+    font-size: 20px;
+    height: 2100px;
+    width: 100%;
+    background-color: white;
+    /*border: 2px solid black;*/
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.phone {
+    font-size: 13px;
+    color: gray;
+    margin: -10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer {
+    height: 290px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_left {
+    color: azure;
+    height: 220px;
+    width: 500px;
+    background-color: black;
+    /*border: 2px solid gray;*/
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.footer_right {
+    color: azure;
+    height: 220px;
+    width: 550p8=x;
+    background-color: black;
+    /*border: 2px solid grey;*/
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.About {
+
+    height: 218px;
+    width: 150px;
+    background-color: black;
+    /* border: 2px solid rgb(245, 238, 238);*/
+
+
+}
+
+.mail {
+    height: 218px;
+    width: 250px;
+    background-color: black;
+    /*border: 2px solid red;*/
+    text-align: center;
+}
+
+.Footer_nav {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid gray;
+    color: #fff;
+    display: flex;
+
+}
+
+.end {
+    height: 40px;
+    width: 130px;
+    /*border: 2px solid gray;*/
+    margin-top: 15px;
+    justify-content: space-around;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.Card {
+    margin-top: 20px;
+    height: 40px;
+    width: 400px;
+    /*border: 2px solid red;*/
+    margin-left: 50px;
+
+}
